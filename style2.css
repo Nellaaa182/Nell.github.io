@@ -1,0 +1,41 @@
+
+
+
+html {
+    background-color: palevioletred;
+}
+
+  
+  /* Navigation */
+  nav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 50px;
+  }
+  
+  
+  
+  ul.nav-links {
+    grid-column: 6 / 11;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    list-style: none;
+    font-size: 30px;
+    margin-left: 500px;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: blue;
+  }
+  
+  ul.nav-links li a {
+    font-size: 0.9em;
+    color: #e7b038;
+    list-style: none;
+    
+  }
+  
+  ul.nav-links li a.active {
+    color: #ffffff;
+    font-weight: 500;
+  }
